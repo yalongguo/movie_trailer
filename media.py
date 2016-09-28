@@ -1,5 +1,6 @@
 import webbrowser
 
+#define the class Movie
 class Movie():
     '''This class provides a way to stroe movie related information'''
 
