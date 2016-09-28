@@ -2,6 +2,11 @@ import fresh_tomatoes
 import media
 
 #all the movie's information
+partner = media.Movie("Partner",
+                      "3 Chinese made their dream come true",
+                      "http://www.imdb.com/title/tt2278392/mediaviewer/rm541058816",
+                      "https://www.youtube.com/watch?v=uN_6mQMYsGM")
+
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -28,6 +33,6 @@ hunger_games = media.Movie("Hunger Games", "A really real reality show",
                            "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
                            "https://www.youtube.com/watch?v=PbA63a7H0bo")
 #movies list
-movies = [toy_story,avatar,school_of_rock,ratatouille,midnight_in_paris,hunger_games]
+movies = [partner,toy_story,avatar,school_of_rock,ratatouille,midnight_in_paris,hunger_games]
 fresh_tomatoes.open_movies_page(movies)
 
