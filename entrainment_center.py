@@ -4,7 +4,7 @@ import media
 #all the movie's information
 partner = media.Movie("Partner",
                       "3 Chinese made their dream come true",
-                      "http://www.imdb.com/title/tt2278392/mediaviewer/rm541058816",
+                      "https://pmcvariety.files.wordpress.com/2013/05/american-dreams-in-china.jpg",
                       "https://www.youtube.com/watch?v=uN_6mQMYsGM")
 
 toy_story = media.Movie("Toy Story",
